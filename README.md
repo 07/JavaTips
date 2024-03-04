@@ -21,7 +21,7 @@
 
 ### 4. 集合初始化时避免直接用new ArrayList()
    - 当创建集合时，尽可能使用Collections工具类提供的方法或者流式API初始化，这样可以一目了然地看到集合内容和大小。
-    ``` java
+   ``` java
    List<String> names = new ArrayList<>(Arrays.asList("Alice", "Bob", "Jack"));
    ```
 
